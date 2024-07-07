@@ -1,5 +1,5 @@
 """
-Heterogenous Benefit/Harm Effects from Treatment
+Probabilities of Causation
 """
 
 # Author: Leo Guelman <leo.guelman@gmail.com>
