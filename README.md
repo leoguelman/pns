@@ -1,2 +1,2 @@
-# pns
-Heterogenous Benefit/Harm Effects from Treatment
+# PNS
+Probability of Causal Necessity and Sufficiency 
