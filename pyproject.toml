@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "PnsSim"
+version = "0.1.0"
+description = "Heterogenous Benefit/Harm Effects from Treatment"
+authors = ["Leo Guelman"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+numpy=="^1.23.5"
+pandas=="^1.5.3"
+seaborn=="^0.12.2"
+sklearn=="^1.2.1"
+plotly=="^5.9.0"
+matplotlib=="^3.7.0"
+scipy=="^1.10.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

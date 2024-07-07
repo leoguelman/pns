@@ -1,0 +1,167 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  4 MAY 2024 09:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**algo.tex
+(./algo.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count193
+\c@ALG@rem=\count194
+\c@ALG@nested=\count195
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
+\c@ALG@Lnr=\count196
+\c@ALG@blocknr=\count197
+\c@ALG@storecount=\count198
+\c@ALG@tmpcounter=\count199
+\ALG@tmplength=\skip52
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box51
+) (./algo.aux)
+\openout1 = `algo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+
+./algo.tex:13: Undefined control sequence.
+l.13 \State Compute $\hat{\text
+                               {PNS^L_{nb}}$, $\hat{\text{PNS^U_{nb}}$, $\te...
+
+? 
+./algo.tex:13: Missing } inserted.
+<inserted text> 
+                }
+l.13 \State Compute $\hat{\text{PNS^L_{nb}}$
+                                            , $\hat{\text{PNS^U_{nb}}$, $\te...
+
+? 
+./algo.tex:13: Undefined control sequence.
+l.13 ...pute $\hat{\text{PNS^L_{nb}}$, $\hat{\text
+                                                  {PNS^U_{nb}}$, $\text{PNS^...
+
+? 
+./algo.tex:13: Missing } inserted.
+<inserted text> 
+                }
+l.13 ...ext{PNS^L_{nb}}$, $\hat{\text{PNS^U_{nb}}$
+                                                  , $\text{PNS^L_{nb}$, $\te...
+
+? 
+./algo.tex:13: Undefined control sequence.
+<recently read> \text 
+                      
+l.13 ...L_{nb}}$, $\hat{\text{PNS^U_{nb}}$, $\text
+                                                  {PNS^L_{nb}$, $\text{PNS^U...
+
+? 
+./algo.tex:13: Missing } inserted.
+<inserted text> 
+                }
+l.13 ...hat{\text{PNS^U_{nb}}$, $\text{PNS^L_{nb}$
+                                                  , $\text{PNS^U_{nb}$
+? 
+./algo.tex:13: Undefined control sequence.
+<recently read> \text 
+                      
+l.13 ...t{PNS^U_{nb}}$, $\text{PNS^L_{nb}$, $\text
+                                                  {PNS^U_{nb}$
+? 
+./algo.tex:13: Missing } inserted.
+<inserted text> 
+                }
+l.13 ...}$, $\text{PNS^L_{nb}$, $\text{PNS^U_{nb}$
+                                                  
+? 
+./algo.tex:15: Undefined control sequence.
+l.15 ...mpute $\textbf{err}^L_n=\sum_b |\hat{\text
+                                                  {PNS^L_{nb}}} - \text{PNS^...
+
+? 
+./algo.tex:15: Undefined control sequence.
+l.15 ..._n=\sum_b |\hat{\text{PNS^L_{nb}}} - \text
+                                                  {PNS^L_{nb}} |/B$,
+? 
+./algo.tex:16: Undefined control sequence.
+l.16 ...~~~~~~$\textbf{err}^U_n=\sum_b |\hat{\text
+                                                  {PNS^U_{nb}}} - \text{PNS^...
+
+? 
+./algo.tex:16: Undefined control sequence.
+l.16 ..._n=\sum_b |\hat{\text{PNS^U_{nb}}} - \text
+                                                  {PNS^U_{nb}} |/B$
+? 
+[1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./algo.aux) ) 
+Here is how much of TeX's memory you used:
+ 995 strings out of 476025
+ 17218 string characters out of 5790017
+ 1854388 words of memory out of 5000000
+ 21518 multiletter control sequences out of 15000+600000
+ 512595 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 49i,5n,48p,250b,172s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on algo.pdf (1 page, 64983 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

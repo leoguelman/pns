@@ -1,0 +1,32 @@
+\frametitle{}
+
+\small{
+
+\begin{itemize}
+
+\item Hence, incorporating the necessary condition for monotonicity (Ineq.~\ref{eq:1}), we get that interventional distributions must satisfy:
+
+\begin{align*}
+0.50 &\leq P(y_{t} |x)  \leq 0.75 \\
+0.25  &\leq P(y_{t'} |x)  \leq 0.50.
+\end{align*}
+
+\vskip5pt
+
+\item Define the \textbf{necessary set} as  $\mathcal{N}=\bigl\{ \big( P(y_{t} |x), P(y_{t'} |x) \big): \text{Ineq.(4)}  \wedge   \text{Ineq.(5)} \bigl\}$.
+
+\vskip5pt
+
+
+\item Finally, define the \textbf{violation set} as $\mathcal{V} = \mathcal{C} \setminus \mathcal{N}$ -- i.e., $\mathcal{V}$  is composed of feasible values of the interventional distributions that would entail violations to monotonicity.
+
+\end{itemize}
+
+
+\begin{figure}[t]
+\includegraphics[width=4cm]{figures/v2.png}
+\end{figure}
+
+
+}
+

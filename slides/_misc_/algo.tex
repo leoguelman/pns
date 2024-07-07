@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{algpseudocode}
+
+\begin{document}
+
+\begin{algorithmic}
+\State \textbf{Samples:} $N=\{100, 300, 500, 1000, \ldots, 6000\}$
+\State \textbf{Repetitions:} $B=500$
+\ForAll{$n \in N$}
+\ForAll{$b \in B$} 
+\State Draw $(Y_{jb}, X_{jb}, T^e_{jb})$, $j=\{1, \ldots,n\}, b=\{1, \ldots, B\}$
+\State Draw $(Y_{jb}, X_{jb}, T^o_{jb})$
+\State Compute $\hat{\text{PNS^L_{nb}}$, $\hat{\text{PNS^U_{nb}}$, $\text{PNS^L_{nb}$, $\text{PNS^U_{nb}$
+\EndFor
+\State Compute $\textbf{err}^L_n=\sum_b |\hat{\text{PNS^L_{nb}}} - \text{PNS^L_{nb}} |/B$,
+\State~~~~~~~~~~~~~$\textbf{err}^U_n=\sum_b |\hat{\text{PNS^U_{nb}}} - \text{PNS^U_{nb}} |/B$
+\EndFor
+\end{algorithmic}
+\end{document}
